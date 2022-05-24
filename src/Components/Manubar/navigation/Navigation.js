@@ -9,25 +9,35 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 const Navigation = () => {
     return (
-        <div className="navigationIcon">
+        <div className="navigation">
             <ul>
                 <li>
-                    <BiHomeAlt/>
+                    <a href="#">
+                        <BiHomeAlt/>
+                    </a>
                 </li>
                 <li>
-                    <FiMessageSquare/>
+                    <a href="#">
+                        <FiMessageSquare/>
+                    </a>
                 </li>
                 <li>
-                    <BsPlusSquare/>
+                    <a href="#">
+                        <BsPlusSquare/>
+                    </a>
                 </li>
                 <li>
-                    <IoCompassOutline/>
+                    <a href="#">
+                        <IoCompassOutline/>
+                    </a>
                 </li>
                 <li>
-                    <AiOutlineHeart/>
+                    <a href="#">
+                        <AiOutlineHeart/>
+                    </a>
                 </li>
-                <li>
-                    users
+                <li className="userProfile">
+                    <img src='https://randomuser.me/api/portraits/men/75.jpg' alt="user" />
                 </li>
             </ul>
         </div>

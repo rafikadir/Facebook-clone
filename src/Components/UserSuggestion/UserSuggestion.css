@@ -1,0 +1,42 @@
+.userSuggestArea {
+    margin-bottom: 20px;
+}
+.userSuggestArea .suggestionTop {
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.userSuggestArea .suggestionTop p {
+    margin-bottom: 0;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+.userSuggestArea .suggestionTop .userLists {
+    color: #000000;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+}
+.singleSuggestion {
+    padding: 10px;
+}
+.singleSuggestion .singleSuggestionImage img {
+    max-width:40px;
+    border-radius: 100px;
+}
+.singleSuggestion .singleSuggestionInfo {
+    line-height: 1;
+    margin-left: 20px;
+}
+.singleSuggestion .singleSuggestionInfo .singleSuggestionName {
+    color: #000000;
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.singleSuggestion .singleSuggestionInfo .singleSuggestionTitle {
+    margin-bottom: 0;
+    color: #8e8e8e;
+    font-size: 15px;
+}

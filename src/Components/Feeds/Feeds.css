@@ -1,0 +1,95 @@
+.feedArea {
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+}
+
+.feedTop {
+    padding: 15px;
+}
+
+.feedTop .userInfo img {
+    max-width:40px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.feedTop .userInfo .userName {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 500;
+}
+
+.feedArea .postInfo {
+    text-align: right;
+}
+
+.postInfo button {
+    border: none !important;
+    background: none;
+    font-size: 22px;
+}
+
+.feedArea .feedBottom {
+    padding: 15px;
+}
+
+.feedArea .feedBottom .feedActivity ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.feedArea .feedBottom .feedActivity ul li {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.feedArea .feedBottom .feedActivity ul li:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.feedArea .feedBottom .likesInfo p {
+    font-weight: 500;
+    margin: 5px 0 5px;
+    font-size: 14px;
+}
+.feedArea .feedBottom .postCaption {
+    margin-bottom: 15px;
+}
+.feedArea .feedBottom .postCaption  p {
+    margin-bottom: 0;
+}
+
+.feedArea .feedBottom .postComment {
+    margin-bottom: 5px;
+}
+.feedArea .feedBottom .postComment p {
+    margin-bottom: 0;
+}
+.feedArea .postBottom {
+    border-top: 1px solid #dbdbdb;
+    padding: 5px 15px;
+}
+
+.feedArea .postBottom .commentForm {
+    position: relative;
+}
+
+.feedArea .postBottom .commentForm .form-control {
+    border: none;
+}
+.feedArea .postBottom .commentForm .form-control:focus {
+    box-shadow: none;
+}
+
+.feedArea .postBottom .commentForm .commentButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:none;
+    color: #0095f6;
+    border: none;
+}

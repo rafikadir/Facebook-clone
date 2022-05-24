@@ -1,4 +1,22 @@
-.navigationIcon ul li {
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
     list-style-type: none;
     display: inline-block;
+    margin: 0 10px;
+}
+.navigation ul li a {
+    color: #222;
+}
+
+.navigation ul li a svg {
+    font-size: 25px;
+}
+
+.navigation .userProfile img {
+    max-width: 30px;
+    border-radius: 100px;
 }

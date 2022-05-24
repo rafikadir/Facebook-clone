@@ -1,0 +1,25 @@
+.sidebarUser {
+    margin: 25px 0;
+}
+
+.sidebarUser .userImage img {
+    max-width:50px;
+    border-radius: 100px;
+}
+.sidebarUser .userInfo {
+    margin-left: 20px;
+    line-height: 1;
+}
+.sidebarUser .userInfo .userName {
+    color: #000000;
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.sidebarUser .userInfo .userTitle {
+    margin-bottom: 0;
+    color: #8e8e8e;
+    font-size: 15px;
+}

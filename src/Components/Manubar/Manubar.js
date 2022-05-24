@@ -7,19 +7,21 @@ import Navigation from './navigation/Navigation';
 const Manubar = () => {
     return (
         <div className="mainMenu">
-            <Container>
-                <Row>
+            <Container className="contentArea">
+                <Row className="align-items-center">
                     <Col lg={4}>
                         <div className="logoArea">
-                            <img className="logo" src={logo} alt="logo" />
+                            <a href="#">
+                                <img className="logo" src={logo} alt="logo" />
+                            </a>
                         </div>
                     </Col>
-                    <Col lg={4}>
-                        <Form className="d-flex">
+                    <Col lg={4} className="text-center">
+                        <Form className="d-flex searchForm">
                             <FormControl
                             type="search"
                             placeholder="Search"
-                            className="me-2"
+                            className="me-2 searchInput"
                             aria-label="Search"
                             />
                         </Form>

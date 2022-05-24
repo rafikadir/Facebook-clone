@@ -2,7 +2,11 @@
 
 body {
   margin: 0;
-  padding: 0 20px;
-  background: #F0F2F5;
+  padding: 0;
+  background: #fafafa !important;
   font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width:100%
 }
