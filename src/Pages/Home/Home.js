@@ -4,10 +4,12 @@ import Feeds from '../../Components/Feeds/Feeds';
 import { Col, Container, Row } from 'react-bootstrap';
 import HomeSidebar from '../../Components/HomeSidebar/HomeSidebar';
 import './Home.css';
+import Manubar from '../../Components/Manubar/Manubar';
 
 const Home = () => {
     return (
         <>
+
             <Container className="mt-4 contentArea">
                 <Row>
                     <Col lg={8}>
