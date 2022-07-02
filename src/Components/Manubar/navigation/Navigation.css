@@ -6,7 +6,7 @@
 .navigation ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 8px;
 }
 .navigation ul li a {
     color: #222;
@@ -14,6 +14,48 @@
 
 .navigation ul li a svg {
     font-size: 25px;
+}
+
+.navigation .userProfile .btn-primary {
+    background: transparent;
+    border: none;
+}
+
+.navigation .userProfile .btn-primary:active {
+    background: transparent;
+}
+
+.navigation .userProfile .btn-primary.dropdown-toggle{
+    background-color: transparent !important;
+}
+
+.navigation .userProfile .btn-primary.dropdown-toggle::after {
+    display: none;
+}
+
+.navigation .userProfile .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.navigation .userProfile .dropdown-menu {
+    transform: translate(-80%, 25%) !important;
+    width: 200px;
+    min-width: unset;
+    border: 0px solid;
+    box-shadow: 0 0px 10px #ddd;
+    background: #fff;
+}
+
+.navigation .userProfile .dropdown-menu a {
+    color: #222;
+}
+
+.navigation .userProfile .dropdown-menu .dropdown-item:active {
+    background-color: transparent;
+}
+
+.navigation .userProfile .btn {
+    padding: 0;
 }
 
 .navigation .userProfile img {

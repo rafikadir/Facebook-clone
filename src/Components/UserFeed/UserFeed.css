@@ -1,0 +1,29 @@
+.userFeedWrapper {
+    margin-top: 30px;
+}
+.userFeedWrapper .userFeedTabs {
+    border: 0;
+    border-top: 1px solid #dee2e6;
+    justify-content: center;
+}
+
+.userFeedWrapper .userFeedTabs .nav-item .nav-link {
+    border: 0;
+    line-height: 1;
+    padding: 15px 0;
+    margin: 0px 30px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border-top: 1px solid transparent;
+
+}
+
+.userFeedWrapper .userFeedTabs .nav-item .nav-link.active {
+    color: #262626;
+    border-top: 1px solid #262626;
+    background: none;
+}

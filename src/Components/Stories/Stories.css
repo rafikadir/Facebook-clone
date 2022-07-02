@@ -3,6 +3,7 @@
     padding: 15px;
     display: flex;
     background:#fff;
+    overflow: scroll;
 }
 
 .singleStory {

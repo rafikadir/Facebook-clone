@@ -5,6 +5,9 @@ import { FiMessageSquare } from "react-icons/fi";
 import { BsPlusSquare } from "react-icons/bs";
 import { IoCompassOutline } from "react-icons/io5";
 import { AiOutlineHeart } from "react-icons/ai";
+import { Link } from 'react-router-dom';
+import { Dropdown } from 'react-bootstrap';
+
 
 
 const Navigation = () => {
@@ -12,32 +15,44 @@ const Navigation = () => {
         <div className="navigation">
             <ul>
                 <li>
-                    <a href="#">
+                    <Link to="/">
                         <BiHomeAlt/>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
+                    <Link to="#">
                         <FiMessageSquare/>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
+                    <Link to="#">
                         <BsPlusSquare/>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
+                    <Link to="#">
                         <IoCompassOutline/>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">
+                    <Link to="#">
                         <AiOutlineHeart/>
-                    </a>
+                    </Link>
                 </li>
                 <li className="userProfile">
-                    <img src='https://randomuser.me/api/portraits/men/75.jpg' alt="user" />
+                    <Dropdown>
+                        <Dropdown.Toggle>
+                            <img src='https://randomuser.me/api/portraits/men/75.jpg' alt="user" />
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Profile</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Saved</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Setting</Dropdown.Item>
+                            <Dropdown.Divider />
+                            <Dropdown.Item href="#/action-4">Log Out</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                 </li>
             </ul>
         </div>
